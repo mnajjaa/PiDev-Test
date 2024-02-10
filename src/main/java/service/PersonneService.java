@@ -28,6 +28,7 @@ public class PersonneService implements IService<Personne> {
 
 
 
+
    public void addPst(Personne p){
         String requete ="insert into personne (nom,prenom ) values (?,?)";
        try {
